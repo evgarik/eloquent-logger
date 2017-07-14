@@ -1,4 +1,4 @@
-<?php namespace Fish\Logger;
+<?php namespace Evgarik\Logger;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Filesystem\Filesystem;

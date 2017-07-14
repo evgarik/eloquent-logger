@@ -23,7 +23,7 @@
    },
     "autoload": {
         "psr-0": {
-            "Fish\\Logger": "src/"
+            "evgarik\\Logger": "src/"
         }
     },
     "autoload-dev": {

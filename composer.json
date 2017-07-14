@@ -23,7 +23,7 @@
    },
     "autoload": {
         "psr-0": {
-            "evgarik\\Logger": "src/"
+            "Evgarik\\Logger": "src/"
         }
     },
     "autoload-dev": {

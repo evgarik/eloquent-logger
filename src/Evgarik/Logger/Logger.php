@@ -7,7 +7,7 @@ use Sentinel;
 trait Logger {
 
  public function logs() {
-  return $this->morphMany('Fish\Logger\Log','loggable');
+  return $this->morphMany('Evgarik\Logger\Log','loggable');
 }
 
 public static function bootLogger()

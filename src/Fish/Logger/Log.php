@@ -1,6 +1,6 @@
 <?php
 
-namespace Fish\Logger;
+namespace Evgarik\Logger;
 
 use Illuminate\Database\Eloquent\Model;
 use App;

@@ -7,6 +7,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Carbon\Carbon;
 use Illuminate\Filesystem\Filesystem;
 
+
 class InitLoggerCommand extends BaseCommand
 {
     /**

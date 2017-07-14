@@ -2,6 +2,7 @@
 namespace Fish\Logger;
 
 use Auth;
+use Sentinel;
 
 trait Logger {
 
@@ -27,7 +28,7 @@ public static function bootLogger()
 
 protected function insertNewLog($action, $before, $after) {
 
-  $userId = Auth::id()?:null;
+  $userId = Sentinel::getUser()->id?:null;
 
   return $this->logs()->save(new Log(['user_id'=>$userId,
     'action'=>$action,

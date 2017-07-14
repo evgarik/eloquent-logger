@@ -1,5 +1,5 @@
 {
-    "name": "fish/eloquent-logger",
+    "name": "evgarik/eloquent-logger",
     "description": "Log Eloquent model changes to a designated logs table",
     "keywords":["laravel","eloquent","log","model", "events"],
     "license":"MIT",
@@ -23,7 +23,7 @@
    },
     "autoload": {
         "psr-0": {
-            "Fish\\Logger": "src/"
+            "evgarik\\Logger": "src/"
         }
     },
     "autoload-dev": {

@@ -1,5 +1,5 @@
 <?php
-namespace Fish\Logger;
+namespace Evgarik\Logger;
 
 use Auth;
 use Sentinel;

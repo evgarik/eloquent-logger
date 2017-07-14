@@ -1,4 +1,4 @@
-<?php namespace Fish\Logger;
+<?php namespace Evgarik\Logger;
 
 use Illuminate\Database\Console\Migrations\BaseCommand;
 use Illuminate\Support\Facades\Schema;

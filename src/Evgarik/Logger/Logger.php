@@ -32,8 +32,8 @@ protected function insertNewLog($action, $before, $after) {
 
   return $this->logs()->save(new Log(['user_id'=>$userId,
     'action'=>$action,
-    'before'=>$before?json_encode($before):null,
-    'after'=>$after?json_encode($after):null]));
+    'before'=>$before?json_encode($before,JSON_UNESCAPED_UNICODE):null,
+    'after'=>$after?json_encode($after,JSON_UNESCAPED_UNICODE):null]));
 }
 
 protected function logCreated() {

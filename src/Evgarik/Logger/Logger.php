@@ -28,7 +28,7 @@ public static function bootLogger()
 
 protected function insertNewLog($action, $before, $after) {
 
-  $userId = Sentinel::getUser()->id?:null;
+  $userId = null;
 
   return $this->logs()->save(new Log(['user_id'=>$userId,
     'action'=>$action,
